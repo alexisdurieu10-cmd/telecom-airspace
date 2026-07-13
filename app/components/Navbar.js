@@ -11,7 +11,6 @@ const liens = [
     href: '/projets',
     sousMenus: [{ nom: 'Aéromodélisme', href: '/projets/aeromodelisme' }],
   },
-  { nom: 'Développement', href: '/developpement' },
   { nom: 'Membres', href: '/membres' },
   { nom: 'Contact', href: '/contact' },
 ];

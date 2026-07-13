@@ -5,7 +5,6 @@ const liens = [
   { nom: 'Accueil', href: '/' },
   { nom: 'Évènements', href: '/evenements' },
   { nom: 'Projets', href: '/projets' },
-  { nom: 'Développement', href: '/developpement' },
   { nom: 'Membres', href: '/membres' },
   { nom: 'Contact', href: '/contact' },
 ];

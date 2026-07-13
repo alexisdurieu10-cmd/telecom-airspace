@@ -21,12 +21,12 @@ export default function Navbar() {
   const [menuMobile, setMenuMobile] = useState(false);
 
   return (
-    <nav className="bg-blue-700 text-white shadow-lg">
+    <nav className="bg-blue-900 text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
 
         <Link href="/" className="flex items-center gap-3">
           <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-            <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-blue-700" stroke="currentColor" strokeWidth={2}>
+            <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-blue-900" stroke="currentColor" strokeWidth={2}>
               <circle cx="12" cy="12" r="10"/>
               <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
             </svg>
@@ -48,7 +48,7 @@ export default function Navbar() {
                   </svg>
                 </button>
                 {dropdown && (
-                  <div className="absolute top-full left-0 mt-2 bg-white text-blue-700 rounded-lg shadow-xl py-2 min-w-48 z-50 border border-blue-100">
+                  <div className="absolute top-full left-0 mt-2 bg-white text-blue-900 rounded-lg shadow-xl py-2 min-w-48 z-50 border border-blue-100">
                     {lien.sousMenus.map((sous) => (
                       <Link
                         key={sous.nom}
@@ -76,7 +76,7 @@ export default function Navbar() {
 
         <Link
           href="/espace-membres"
-          className="hidden md:block bg-white text-blue-700 hover:bg-blue-50 transition-colors px-5 py-2.5 rounded-full text-sm font-bold shadow"
+          className="hidden md:block bg-white text-blue-900 hover:bg-blue-50 transition-colors px-5 py-2.5 rounded-full text-sm font-bold shadow"
         >
           Espace membres
         </Link>
@@ -121,7 +121,7 @@ export default function Navbar() {
           <Link
             href="/espace-membres"
             onClick={() => setMenuMobile(false)}
-            className="bg-white text-blue-700 font-bold px-5 py-3 rounded-full text-center mt-2"
+            className="bg-white text-blue-900 font-bold px-5 py-3 rounded-full text-center mt-2"
           >
             Espace membres
           </Link>
